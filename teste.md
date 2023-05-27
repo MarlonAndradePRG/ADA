@@ -4,3 +4,4 @@
 
 *Comando git push try 2
 *Alterando no git (Comando Pull)
+*Comando git fetch
