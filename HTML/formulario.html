@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+        <form method="get">
+            <!-- place holder, texto que fica dentro do input como sugestão -->
+            <!-- Value = define um valor inicial para o input -->
+            <!-- Atributo name, para o JS identificar o item do formulário -->
+            <div>
+                <label for="texto">Input de texto:</label>
+                <input id="texto" type="text" placeholder="Informe o seu nome...">
+                <br>
+                <br>
+                <label for="texto2">Nome</label>
+                <input id="texto2" type="text" name="nome" value="Marlon Andrade">
+            </div>
+            <br>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" name="hora" id="hora">
+            </div>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br><br><br>
+            <div>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das opções</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+                <option value="transferencia">Transferência</option>
+            </select>
+            </div>
+            <div>
+                <input type="reset" name="reset" id="reset" value="Resetar">
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
+        <!-- Tipos: Color, Number, file, url, range, checkbox pode mais que um, radio -->
+        <!-- atributo checked no checkbos para que o mesmo já inicie marcado -->
+        <!-- Atributos de range, max, min e value -->
+    </main>
+</body>
+</html>
